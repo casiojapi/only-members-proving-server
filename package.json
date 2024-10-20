@@ -9,5 +9,6 @@
     "@noir-lang/backend_barretenberg": "0.31.0",
     "@noir-lang/noir_js": "0.31.0",
     "express": "^4.21.1"
-  }
+  },
+  "type": "module"
 }
