@@ -1,0 +1,13 @@
+{
+  "name": "only-members-proving-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:casiojapi/only-members-proving-server.git",
+  "author": "casiojapi <f91w@tuta.io>",
+  "license": "MIT",
+  "dependencies": {
+    "@noir-lang/backend_barretenberg": "0.31.0",
+    "@noir-lang/noir_js": "0.31.0",
+    "express": "^4.21.1"
+  }
+}
