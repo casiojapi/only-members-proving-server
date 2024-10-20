@@ -8,7 +8,6 @@ const port = 8080;
 
 app.use(express.json());
 
-// Initialize Noir backend
 const backend = new BarretenbergBackend(circuit);
 const noir = new Noir(circuit);
 
@@ -23,7 +22,6 @@ async function generateProof(input) {
 	}
 }
 
-// API endpoint to generate proof
 app.post('/generate-proof', async (req, res) => {
 	const { member, expected_member } = req.body;
 
